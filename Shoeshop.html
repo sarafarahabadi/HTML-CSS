@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Foot wear | Store</title>
+    <meta name="description" content="This is the description" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="store.js" async></script>
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="logo">
+        <img src="images/sara-shop.png" width="50%">
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#ProductSection">Products</a></li>
+          <li><a href="#CartSection">Cart</a></li>
+        </ul>
+      </nav>
+    </div>
+    <header>
+      <div class="main-header">
+        <h1>Style your feet!</h1>
+        <img src="images/main-picture.png">
+      </div>
+    </header>
+    <div class="products">
+      <div class="small-products">
+        <h2 class="title" id="ProductSection">Products</h2>
+      </div>
+
+    </div>
+    <section  class="container content-section" ondl>
+      <div class="shop-items">
+        <div class="shop-item">
+          <span class="shop-item-title">High heels - Rose</span>
+          <img
+            id = 'High heels-1'
+            onclick="showProductDetails(id);"
+            class="shop-item-image"
+            src="images/highHeels-1-main.jpg"
+          />
+          <div class="shop-item-details">
+            <span class="shop-item-price">€30.99</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              ADD TO CART
+            </button>
+          </div>
+        </div>
+
+        <div class="shop-item">
+          <span class="shop-item-title">High heels - black</span>
+          <img
+            id = 'High heels-2'
+            onclick="showProductDetails(id);"
+            class="shop-item-image"
+            src="images/highHeels-2-main.jpg"
+          />
+          <div class="shop-item-details">
+            <span class="shop-item-price">€23.99</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              ADD TO CART
+            </button>
+          </div>
+        </div>
+
+        <div class="shop-item">
+          <span class="shop-item-title">Espadrilles - black</span>
+          <img
+              id = 'Espadrilles-1'
+            onclick="showProductDetails(id);"
+            class="shop-item-image"
+            src="images/sandal-1-main.jpg"
+          />
+          <div class="shop-item-details">
+            <span class="shop-item-price">€44.99</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              ADD TO CART
+            </button>
+          </div>
+        </div>
+        <div class="shop-item">
+          <span class="shop-item-title">Espadrilles - light pink</span>
+          <img
+              id = 'Espadrilles-2'
+            onclick="showProductDetails(id);"
+            class="shop-item-image"
+            src="images/sandal-2-main.jpg"
+          />
+          <div class="shop-item-details">
+            <span class="shop-item-price">€23.99</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              ADD TO CART
+            </button>
+          </div>
+        </div>
+        <div class="shop-item">
+          <span class="shop-item-title">Trainer - pale mauve</span>
+          <img
+              id = 'Trainer-1'
+            onclick="showProductDetails(id);"
+            class="shop-item-image"
+            src="images/trainers-1-main.jpg"
+          />
+          <div class="shop-item-details">
+            <span class="shop-item-price">€69.99</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              ADD TO CART
+            </button>
+          </div>
+        </div>
+        <div class="shop-item">
+          <span class="shop-item-title">Trainer - black </span>
+          <img
+              id = 'Trainer-2'
+            onclick="showProductDetails(id);"
+            class="shop-item-image"
+            src="images/trainers-2-main.jpg"
+          />
+          <div class="shop-item-details">
+            <span class="shop-item-price">€64.99</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              ADD TO CART
+            </button>
+          </div>
+        </div>
+        <div class="shop-item">
+          <span class="shop-item-title">Lace-ups - black</span>
+          <img
+              id = 'Lace-ups-1'
+            onclick="showProductDetails(id);"
+            class="shop-item-image"
+            src="images/laceup-1-main.jpg"
+          />
+          <div class="shop-item-details">
+            <span class="shop-item-price">€25.99</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              ADD TO CART
+            </button>
+          </div>
+        </div>
+        <div class="shop-item">
+          <span class="shop-item-title">Lace-ups - light blue</span>
+          <img
+              id = 'Lace-ups-2'
+            onclick="showProductDetails(id);"
+            class="shop-item-image"
+            src="images/laceup-2-main.jpg"
+          />
+          <div class="shop-item-details">
+            <span class="shop-item-price">€43.99</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              ADD TO CART
+            </button>
+          </div>
+        </div>
+        <div class="shop-item">
+          <span class="shop-item-title">Slip-ons - beige</span>
+          <img
+              id = 'Slip-ons-1'
+            onclick="showProductDetails(id);"
+            class="shop-item-image"
+            src="images/slipon-1-main.jpg"
+          />
+          <div class="shop-item-details">
+            <span class="shop-item-price">€10.99</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              ADD TO CART
+            </button>
+          </div>
+        </div>
+        <div class="shop-item">
+          <span class="shop-item-title">Slip-ons - yellow/sherry</span>
+          <img
+              id = 'Slip-ons-2'
+            onclick="showProductDetails(id);"
+            class="shop-item-image"
+            src="images/slipon-2-main.jpg"
+          />
+          <div class="shop-item-details">
+            <span class="shop-item-price">€43.99</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              ADD TO CART
+            </button>
+          </div>
+        </div>
+      </div>
+
+
+
+
+    </section>
+    <section class="container content-section">
+      <h2 class="section-header" id="CartSection">CART</h2>
+      <div class="cart-row">
+        <span class="cart-item cart-header cart-column">ITEM</span>
+        <span class="cart-price cart-header cart-column">PRICE</span>
+        <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+      </div>
+      <div class="cart-items"></div>
+      <div class="cart-total">
+        <strong class="cart-total-title">Total</strong>
+        <span class="cart-total-price">$0</span>
+      </div>
+      <button class="btn btn-primary btn-purchase" type="button">
+        PURCHASE
+      </button>
+    </section>
+  </body>
+</html>
